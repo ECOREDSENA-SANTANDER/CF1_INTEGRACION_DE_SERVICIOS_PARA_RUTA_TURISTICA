@@ -32,7 +32,8 @@
     
 
 .banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6,
-.boton *, .boton--sm * 
+.boton *, .boton--sm *,
+.barra-avance__boton--regresar span 
   color: $white !important  
 
 
@@ -45,6 +46,27 @@
 figcaption 
     font-weight: normal !important
 
+.acordion__accion__btn--a
+    background-color: $color-acento-botones
+    color: #fff
+.acordion__activo .acordion__accion__btn--a
+    background-color: $color-acento-contenido !important;
+    color: $color-sistema-texto !important;
+.slyder-f__btn i 
+    color: $color-acento-botones
+.acordion__accion__btn--b
+    background-color: $color-acento-botones
+    color: #fff
+    border: 0
+.acordion__activo .acordion__accion__btn--b
+    border: 0
+    background-color: $color-acento-contenido !important;
+    color: $color-sistema-texto !important;
+.acordion__activo
+  background-color: #F2F9ED !important
+.lista-ul--color li > i.icon-color:first-of-type
+    color: $color-secundario !important
+
 /**************************************************************/
 /***CUSTOM STYLES***/
 /**************************************************************/
@@ -55,9 +77,24 @@ figcaption
   background-repeat: no-repeat
   background-position: bottom
   margin-inline: -3.3rem
+.bg-fondo
+  &-1
+    background-image: url('../assets/curso/temas/bg/2.svg') !important
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: center
+  &-2
+    background-image: url('../assets/curso/temas/bg/3.svg') !important
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: center
 .bg-color
   &-1
-    background-color: #EDF4FE !important
+    background-color: #EDF4FE 
+  &-2
+    background-color: #F2F9ED !important
+  &-3
+    background-color: #CCE9B7 !important
 
 .br
   &-1
@@ -71,8 +108,44 @@ figcaption
   &-1
     height: 750px !important
 
-      
+.text-cus
+  &-1
+    font-weight: 600 !important
+    color: $color-sistema-texto !important  
+  &-2
+    color: $color-acento-contenido !important  
+.titulo-icono
+  background-color: #FFF9E5
+  border-radius: 10px
+  width: fit-content
+  position: relative;
+  left: 12px;
+  &-text
+    margin-right: 10px
+    margin-left: 45px;
+  &-img
+    padding: 0px
+    position: absolute
+    top: -10px
 
+
+    &:before
+      position: relative
+      border-bottom-right-radius: 40px
+      @media screen and (max-width: 767px)
+        height: 280%
+    img
+      position: relative
+      max-width: 50px
+.titulo-icono-2
+  background-color: #FFF9E5
+  border-bottom-right-radius: 10px
+  border-top-right-radius: 10px
+  border-left: 5px solid $color-acento-contenido
+  width: fit-content
+  &-text
+    margin-right: 10px
+    margin-left: 10px;
 /**************************************************************/
 /*Media Queries*/  
 /**************************************************************/
