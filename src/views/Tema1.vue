@@ -5,7 +5,12 @@
       .titulo-principal.color-acento-contenido
         .titulo-principal__numero
           span 1
-        h1 Titulo de primer nivel
+        h1 Métodos de investigación
+      #t_1_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
+        h2 1.1 Técnicas aplicadas a la investigación de motivaciones de viaje
+      #t_1_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
+        h2 1.2 Fuentes de información
+      
         
 
   </template>
