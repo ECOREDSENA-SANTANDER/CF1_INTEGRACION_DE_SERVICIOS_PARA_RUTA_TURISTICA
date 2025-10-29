@@ -150,17 +150,17 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Bleisure',
+      termino: '<i>Bleisure</i>',
       significado:
         'tendencia de la industria de reuniones que combina viajes de negocios con actividades de ocio.',
     },
     {
-      termino: 'Branding',
+      termino: '<i>Branding</i>>',
       significado:
         'proceso de construir una identidad distintiva y deseable para un destino, empresa o producto turístico y diferenciarlo de los competidores.',
     },
     {
-      termino: 'Coaching',
+      termino: '<i>Coaching</i>',
       significado:
         'metodología que acompaña a individuos o grupos en el desarrollo de las habilidades y competencias, con el objetivo de mejorar el desempeño y lograr las metas dentro de la industria turística.',
     },
@@ -247,6 +247,25 @@ export default {
       link:
         'https://www.vernegroup.com/actualidad/noticias/analisis-de-datos-sector-turismo/#:~:text=El%20an%C3%A1lisis%20de%20datos%20permite,y%20la%20gesti%C3%B3n%20del%20negocio.&text=%C2%BFQu%C3%A9%20beneficios%20aporta%20el%20an%C3%A1lisis,Smart%20City%20al%20turismo%20inteligente',
     },
+    {
+      referencia:
+        'Organización Mundial del Turismo. (2019a). Comunicación efectiva en turismo: guía para profesionales. OMT.',
+    },
+
+    {
+      referencia:
+        'Organización Mundial del Turismo. (2019b). Medición del turismo sostenible: guía práctica. OMT.',
+    },
+
+    {
+      referencia:
+        'Organización Mundial del Turismo. (2019c). Turismo y comunidades locales: guía para el desarrollo de experiencias autóctonas. OMT.',
+    },
+
+    {
+      referencia:
+        'Yousefi, M., & Marzuki, A. (2014). Perfiles turísticos en función de las motivaciones para viajar. Revista de Turismo y Patrimonio Cultural, (pp. 223–239).',
+    },
   ],
   creditos: [
     {
@@ -268,9 +287,14 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: ' ',
-          cargo: ' ',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Aurora Milena Parada Ortega',
+          cargo: 'Experta temática',
+          centro: 'Centro Agroturístico - Regional Santander',
+        },
+        {
+          nombre: 'Laura Paola Gelvez Manosalva',
+          cargo: 'Evaluadora instruccional',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
@@ -278,18 +302,18 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: ' ',
+          nombre: 'Edison Eduardo Mantilla Cuadros',
           cargo: 'Diseñador de contenidos',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: ' ',
-          cargo: 'Desarrollador <i>full stack</i>',
+          nombre: 'Lizeth Karina Manchego Suarez',
+          cargo: 'Desarrolladora <i>full stack</i>',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: ' ',
-          cargo: 'Animador y productor audiovisual',
+          nombre: 'Maria Alejandra Vera Briceño',
+          cargo: 'Animadora y productora audiovisual',
           centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
@@ -298,12 +322,12 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: ' ',
+          nombre: '--',
           cargo: 'Validador y vinculador de recursos educativos digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: ' ',
+          nombre: '--',
           cargo: 'Evaluador de contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },
