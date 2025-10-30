@@ -88,6 +88,11 @@ figcaption
     background-size: cover
     background-repeat: no-repeat
     background-position: center
+  &-3
+    background-image: url('../assets/curso/temas/bg/4.svg') !important
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: center
 .bg-color
   &-1
     background-color: #EDF4FE 
@@ -95,14 +100,18 @@ figcaption
     background-color: #F2F9ED !important
   &-3
     background-color: #CCE9B7 !important
+  &-4
+    background-color: #1F3B5F !important
 
 .br
   &-1
     border-radius: 10px !important
 
-.ml-cus
+.m-cus
   &-1
     margin-left: 30px !important
+  &-2
+    margin-top: 3rem !important;
       
 .hcard
   &-1
@@ -161,6 +170,9 @@ figcaption
     margin-bottom: 2em  !important  
   .col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info 
     width: 95% !important;
+  .m-cus
+    &-2
+      margin-top: 0.5rem !important;
   
   
   
@@ -173,5 +185,13 @@ figcaption
 
 //// MOBILE 576--------------------------------------
 @media screen and (max-width: $bp-min-sm)
+  .p-full-width
+   padding: 3rem 3.5rem!important;
   .mb-cus
     margin-bottom: 2em  !important
+  .m-cus
+    &-2
+      margin-top: 0.5rem !important;
+  .tarjeta--container > .tarjeta
+    border-radius: 20px;
+    margin-bottom: 2rem !important;
