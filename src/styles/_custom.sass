@@ -66,7 +66,39 @@ figcaption
   background-color: #F2F9ED !important
 .lista-ul--color li > i.icon-color:first-of-type
     color: $color-secundario !important
+.cajon-b.color-primario:before
+    background-color: #EDF4FE
+.cajon-b:before 
+    top: 30%;
+    left: 50%;
+    right: 0%;
+    bottom: 0%;
+    opacity: 1;
+.circl-arrow .slyder-f__btn i
+  font-size: 1.2rem
+  background-color: $color-acento-botones
+  color: $white
+  height: 46px
+  width: 46px
+  padding: 5px
+  border-radius: 500px
+  display: flex
+  justify-content: center
+  align-items: center
+.slyder-a__btn--atrs
+    background-color: $color-acento-botones
+    border: 0
+    background-image: url('../assets/curso/temas/bg/7.svg');
+    transform: initial !important
+.slyder-a__btn--sigt
+    background-color: $color-acento-botones
+    border: 0
+    background-image: url('../assets/curso/temas/bg/6.svg');
+    transform: initial !important
 
+.slyder-a__bullets__item--active
+    background-color: $color-acento-botones
+    border-color: $color-acento-botones
 /**************************************************************/
 /***CUSTOM STYLES***/
 /**************************************************************/
@@ -93,6 +125,11 @@ figcaption
     background-size: cover
     background-repeat: no-repeat
     background-position: center
+  &-4
+    background-image: url('../assets/curso/temas/bg/5.png') !important
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: center
 .bg-color
   &-1
     background-color: #EDF4FE 
@@ -112,6 +149,9 @@ figcaption
     margin-left: 30px !important
   &-2
     margin-top: 3rem !important;
+.p-cus
+  &-1
+    padding: 3rem !important;
       
 .hcard
   &-1
@@ -174,8 +214,13 @@ figcaption
     &-2
       margin-top: 0.5rem !important;
   
-  
-  
+  .p-cus
+    &-1
+      padding: 0.5rem !important;
+  .slyder-a__btn--sigt, .slyder-a__btn--atrs
+    width: 30px;
+    height: 30px;
+    background-size: initial;
 //// TABLET MINI 768--------------------------------------
 @media screen and (max-width: $bp-min-md)
   .mb-cus
@@ -195,3 +240,14 @@ figcaption
   .tarjeta--container > .tarjeta
     border-radius: 20px;
     margin-bottom: 2rem !important;
+  .p-cus
+    &-1
+      padding: 0.5rem !important;
+  .slyder-a__bullets__item
+    width: 5px;
+    height: 5px;
+    margin: 0 3px;
+  .slyder-a__btn--sigt, .slyder-a__btn--atrs
+    width: 30px;
+    height: 30px;
+    background-size: initial;
