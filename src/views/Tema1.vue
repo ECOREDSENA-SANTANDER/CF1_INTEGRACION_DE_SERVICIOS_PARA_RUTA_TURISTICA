@@ -317,7 +317,7 @@
                 p.mb-0 Conocer el perfil, comportamiento y expectativas de los turistas.
               li.d-flex.mb-1
                 i.fas.fa-location-dot.icon-color
-                p.mb-0  Evaluar la eficacia de estrategias de promoción y marketing turístico.
+                p.mb-0  Evaluar la eficacia de estrategias de promoción y #[i marketing] turístico.
               li.d-flex
                 i.fas.fa-location-dot.icon-color
                 p.mb-0  Analizar la competitividad y sostenibilidad de los destinos.
