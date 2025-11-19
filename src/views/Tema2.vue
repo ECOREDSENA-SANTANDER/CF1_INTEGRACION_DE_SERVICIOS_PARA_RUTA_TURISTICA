@@ -14,20 +14,40 @@
             p.mb-0 Un gestor de base de datos es un programa diseñado para introducir, almacenar, ordenar y manipular datos de manera estructurada. Su objetivo principal es organizar la información de forma significativa, de modo que sea posible obtener resultados útiles, como totales, tendencias o relaciones entre distintos elementos.
         
       p.mb-5(data-aos='fade-right') En términos generales, un gestor de base de datos debe permitir las siguientes funciones básicas:
-      
-      .row.justify-content-center.mb-5(data-aos='fade-right')
+      .row.justify-content-center.align-items-center.mb-5
         .col-sm-12.col-lg-4.mb-cus
-          p.mb-3 La información se organiza habitualmente en tablas, donde cada fila representa un registro y cada columna corresponde a un campo o categoría de datos. Por ejemplo, puede compararse con un directorio telefónico, en el que se registran nombres, números y direcciones de contacto. Este tipo de estructura facilita el acceso y la gestión eficiente de la información contenida en la base de datos.
-          p.mb-0 En una base de datos, un dato aparece en una fila de la tabla; a esto se le denomina registro. El registro agrupa la información asociada a un elemento de un conjunto y está compuesto por diferentes campos. Cada una de las partes en que se desglosa la información recibe el nombre de campo, y el conjunto formado por todos los registros conforma una tabla, entendida como un conjunto de registros homogéneos organizados bajo la misma estructura.
+          .tarjeta-avatar.tarjeta-cus
+            img.d-none.d-lg-block.w-cus-3(src='@/assets/curso/temas/t2/11.svg' alt='')
+            .tarjeta.color-secundario.w-cus-2.tarjeta-cus
+              .px-4.py-0.pb-4
+                p.mb-0.text-center Introducir datos.
+        
+        .col-sm-12.col-lg-4.mb-cus
+          .tarjeta-avatar.tarjeta-cus
+            img.d-none.d-lg-block.w-cus-3(src='@/assets/curso/temas/t2/12.svg' alt='')
+            .tarjeta.color-primario.w-cus-2.tarjeta-cus
+              .px-4.py-0.pb-4
+                p.mb-0.text-center Almacenar datos.
+        .col-sm-12.col-lg-4.mb-cus
+          .tarjeta-avatar.tarjeta-cus
+            img.d-none.d-lg-block.w-cus-3(src='@/assets/curso/temas/t2/13.svg' alt='')
+            .tarjeta.color-secundario.w-cus-2.tarjeta-cus
+              .px-4.py-0.pb-4
+                p.mb-0.text-center Recuperar y procesar información.
+      
+      
+      p.mb-5 La información se organiza habitualmente en tablas, donde cada fila representa un registro y cada columna corresponde a un campo o categoría de datos. Por ejemplo, puede compararse con un directorio telefónico, en el que se registran nombres, números y direcciones de contacto. Este tipo de estructura facilita el acceso y la gestión eficiente de la información contenida en la base de datos.
+      .row.justify-content-center.mb-5.align-items-center(data-aos='fade-right')
         .col-sm-12.col-lg-4.mb-cus
           .titulo-sexto.color-acento-contenido.mb-3
               p.mb-0 #[b Figura 1.] Directorio telefónico
           figure.mb-0
-              img.mb-1(src='@/assets/curso/temas/t2/2.png', alt='Directorio telefónico abierto que muestra nombres y números de contacto impresos en sus páginas.')
-              figcaption.mb-0 #[b Fuente:] Freepik-  https://www.freepik.es/foto-gratis/directorio-telefonico-mesa_33626694.htm
-        .col-sm-12.col-lg-4.bg-color-1
-          .p-4
-            p.mb-0.m-cus-2 En un directorio telefónico, por ejemplo, se identifica un campo principal que da sentido a la tabla: el campo denominado “Nombre”. Este campo es clave, ya que permite reconocer que los datos de los demás campos en esa misma fila como número telefónico, dirección o correo electrónico pertenecen a la misma persona. Por este motivo, se denominan campos fundamentales aquellos que definen el registro, y campos secundarios los que complementan o amplían la información del mismo.
+              img.mb-0(src='@/assets/curso/temas/t2/2.png', alt='Directorio telefónico abierto que muestra nombres y números de contacto impresos en sus páginas.')
+              
+        .col-sm-12.col-lg-8
+          p.mb-4 En una base de datos, un dato aparece en una fila de la tabla; a esto se le denomina registro. El registro agrupa la información asociada a un elemento de un conjunto y está compuesto por diferentes campos. Cada una de las partes en que se desglosa la información recibe el nombre de campo, y el conjunto formado por todos los registros conforma una tabla, entendida como un conjunto de registros homogéneos organizados bajo la misma estructura.
+          .bg-color-1.p-4
+            p.mb-0 En un directorio telefónico, por ejemplo, se identifica un campo principal que da sentido a la tabla: el campo denominado “Nombre”. Este campo es clave, ya que permite reconocer que los datos de los demás campos en esa misma fila como número telefónico, dirección o correo electrónico pertenecen a la misma persona. Por este motivo, se denominan campos fundamentales aquellos que definen el registro, y campos secundarios los que complementan o amplían la información del mismo.
       
       .row.justify-content-center.mb-5(data-aos='fade-right')
         .col-sm-12.col-lg-10
@@ -45,10 +65,10 @@
           ul.lista-ul--color.mb-0
             li.d-flex
               i.fas.fa-location-dot.icon-list
-              p.mb-0 Conocer exactamente para que se quiere usar la base de datos, qué datos son los que interesan de los que existen en la realidad y qué información se necesitará extraer.
+              p.mb-0 Conocer exactamente para qué se quiere usar la base de datos, qué datos son los que interesan de los que existen en la realidad y qué información se necesitará extraer.
             li.d-flex
               i.fas.fa-location-dot.icon-list
-              p.mb-0 Una vez este clara la información que se necesita, se define la tabla que compondrá la base de datos. 
+              p.mb-0 Una vez esté clara la información que se necesita, se define la tabla que compondrá la base de datos. 
             li.d-flex
               i.fas.fa-location-dot.icon-list
               p.mb-0 Dentro de cada tabla se organizan los campos necesarios. 
@@ -91,7 +111,7 @@
       
       .row.justify-content-center.mb-5(data-aos='fade-right')
         .col-sm-12.col-lg-7
-          p.mb-4 La manipulación de datos es el proceso mediante el cual se organizan y transforman los datos para hacerlos más comprensibles y útiles. Cualquier tipo de información puede ordenarse de diversas maneras, por ejemplo, alfabéticamente, lo que facilita la búsqueda y el análisis.
+          p.mb-4 La manipulación de datos es el proceso mediante el cual se organizan y transforman los datos para hacerlos más comprensibles y útiles. Cualquier tipo de información puede ordenarse de diversas maneras, por ejemplo: alfabéticamente, lo que facilita la búsqueda y el análisis.
 
           .bg-color-1.p-4
             p.mb-0 Cuando los datos no se encuentran organizados, resulta complejo acceder a información específica. Por ejemplo, en una empresa con numerosos empleados, la falta de orden dificultaría ubicar los registros individuales. En cambio, al organizar los nombres alfabéticamente, se facilita el acceso a la información de cada persona.
@@ -158,22 +178,25 @@
         .col-sm-12.col-md-6.col-lg-4.mb-cus
           .tarjeta-avatar
             img(src='@/assets/curso/temas/t2/8.svg' alt='')
-            .tarjeta.bg-color-1
+            .tarjeta.bg-color-1.hcard-3
               .p-4
-                p.mb-0.text-center #[b Recopilar datos de diversas fuentes y almacenarlos en una base de datos:] puede emplearse software como Microsoft Excel, Google Analytics o Data Studio.
+                p.mb-1.text-center #[b Recopilar datos de diversas fuentes y almacenarlos en una base de datos] 
+                p.mb-0.text-center Puede emplearse software como Microsoft Excel, Google Analytics o Data Studio.
         .col-sm-12.col-md-6.col-lg-4.mb-cus
           .tarjeta-avatar
             img(src='@/assets/curso/temas/t2/9.svg' alt='')
-            .tarjeta.bg-color-1
+            .tarjeta.bg-color-1.hcard-3
               .p-4
-                p.mb-0.text-center #[b Organizar y depurar los datos:] estructurar la información, eliminar duplicados y corregir errores para garantizar su precisión y coherencia.
+                p.mb-1.text-center #[b Organizar y depurar los datos] 
+                p.mb-0.text-center Estructurar la información, eliminar duplicados y corregir errores para garantizar su precisión y coherencia.
 
         .col-sm-12.col-md-6.col-lg-4
           .tarjeta-avatar
             img(src='@/assets/curso/temas/t2/10.svg' alt='')
-            .tarjeta.bg-color-1
+            .tarjeta.bg-color-1.hcard-3
               .p-4
-                p.mb-0.text-center #[b Analizar los datos para extraer información relevante:] consiste en examinar los resultados para identificar patrones, tendencias o comportamientos. Por ejemplo, los hábitos de compra de los consumidores, las proyecciones de beneficios, la interacción digital con la marca o las motivaciones de viaje y los tipos de destinos más visitados.
+                p.mb-1.text-center #[b Analizar los datos para extraer información relevante] 
+                p.mb-0.text-center Consiste en examinar los resultados para identificar patrones, tendencias o comportamientos. Por ejemplo, los hábitos de compra de los consumidores, las proyecciones de beneficios, la interacción digital con la marca o las motivaciones de viaje y los tipos de destinos más visitados.
   </template>
 
 <script>

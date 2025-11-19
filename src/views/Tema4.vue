@@ -88,7 +88,7 @@
             .col-6
               img(src='@/assets/curso/temas/t4/8.svg' alt='')
           h4.text-center Turista de aventura
-          p.mb-0.text-center Motivado por el desafío físico y la búsqueda de emociones intensas. Participa en actividades como senderismo, escalada, parapente, rafting o ciclismo de montaña. Busca experiencias que combinen naturaleza, riesgo controlado y superación personal.
+          p.mb-0.text-center Motivado por el desafío físico y la búsqueda de emociones intensas. Participa en actividades como senderismo, escalada, parapente, #[i rafting] o ciclismo de montaña. Busca experiencias que combinen naturaleza, riesgo controlado y superación personal.
 
         .tarjeta.bg-fondo-1.p-4
           .row.justify-content-center.mb-4
@@ -109,7 +109,7 @@
             .col-6
               img(src='@/assets/curso/temas/t4/11.svg' alt='')
           h4.text-center Turista de salud y bienestar
-          p.mb-0.text-center Viaja con el propósito de mejorar su condición física o mental. Busca destinos con spas, balnearios, centros de medicina alternativa o clínicas especializadas. Su interés principal es el equilibrio entre cuerpo y mente.
+          p.mb-0.text-center Viaja con el propósito de mejorar su condición física o mental. Busca destinos con spa, balnearios, centros de medicina alternativa o clínicas especializadas. Su interés principal es el equilibrio entre cuerpo y mente.
 
       
       
@@ -205,14 +205,14 @@
         .col-sm-12.col-md-6.col-lg-4.mb-cus
           .tarjeta-avatar
             img(src='@/assets/curso/temas/t4/19.svg' alt='')
-            .tarjeta.bg-color-1
+            .tarjeta.bg-color-1.hcard-4
               .p-4
                 h4.mb-3.text-center Turista mochilero
                 p.mb-0.text-center  Suele ser joven, con recursos económicos limitados. Viaja solo o en grupos pequeños, utilizando medios de transporte económicos y alojamientos sencillos. Busca autenticidad, interacción con la comunidad y experiencias fuera del turismo convencional.
         .col-sm-12.col-md-6.col-lg-4.mb-cus
           .tarjeta-avatar
             img(src='@/assets/curso/temas/t4/20.svg' alt='')
-            .tarjeta.bg-color-1
+            .tarjeta.bg-color-1.hcard-4
               .p-4
                 h4.mb-3.text-center Turista familiar o de clase media
                 p.mb-0.text-center Representa un segmento amplio del mercado. Realiza viajes planificados con anticipación, buscando un equilibrio entre calidad y precio. Prioriza la seguridad, la comodidad y las actividades que beneficien a toda la familia.
@@ -220,10 +220,10 @@
         .col-sm-12.col-md-6.col-lg-4
           .tarjeta-avatar
             img(src='@/assets/curso/temas/t4/21.svg' alt='')
-            .tarjeta.bg-color-1
+            .tarjeta.bg-color-1.hcard-4
               .p-4
                 h4.mb-3.text-center Turista #[i premium] o de lujo
-                p.mb-0.text-center Posee un alto poder adquisitivo y busca experiencias exclusivas, personalizadas y de alto nivel. Prefiere servicios de primera categoría, hoteles de lujo, gastronomía gourmet y actividades privadas. También se asocia con el turismo de negocios y el turismo de compras de alto valor.
+                p.mb-0.text-center Posee un alto poder adquisitivo y busca experiencias exclusivas, personalizadas y de alto nivel. Prefiere servicios de primera categoría, hoteles de lujo, gastronomía #[i gourmet] y actividades privadas. También se asocia con el turismo de negocios y el turismo de compras de alto valor.
 
 
 
@@ -233,7 +233,7 @@
           h4.mb-0.titulo-icono-2-text.px-0.py-2 e) Según el impacto y la actitud frente al destino
 
       .tarjeta--container.row.mb-5.justify-content-center(data-aos='fade-right')
-        .col-sm-12.col-md-6.col-lg-4.tarjeta.bg-color-4.p-5.mb-cus
+        .col-sm-12.col-md-6.col-lg-4.tarjeta.bg-color-4.p-5.mb-cus.hcard-2
           .row.justify-content-center.mb-4
             .col-6
               figure
@@ -241,7 +241,7 @@
           h3.mb-4.text-center.text-white Turista responsable o sostenible
           p.mb-0.text-center.text-white  Actúa de manera respetuosa con el medio ambiente, la cultura local y las comunidades receptoras. Promueve el uso racional de los recursos naturales y apoya el desarrollo local.
         
-        .col-sm-12.col-md-6.col-lg-4.tarjeta.bg-color-7.p-5.mb-cus
+        .col-sm-12.col-md-6.col-lg-4.tarjeta.bg-color-7.p-5.mb-cus.hcard-2
           .row.justify-content-center.mb-4
             .col-6
               figure
@@ -249,7 +249,7 @@
           h3.mb-4.text-center.text-white Turista masivo
           p.mb-0.text-center.text-white  Pertenece a grandes grupos que viajan a destinos populares durante las temporadas altas. Suele buscar comodidad y precios asequibles, aunque su presencia puede generar presión sobre los recursos locales.
         
-        .col-sm-12.col-md-6.col-lg-4.tarjeta.bg-color-8.text-white.p-5
+        .col-sm-12.col-md-6.col-lg-4.tarjeta.bg-color-8.text-white.p-5.hcard-2
           .row.justify-content-center.mb-4
             .col-6
               figure
@@ -274,7 +274,7 @@
               .col-auto
                 figure
                   img(src="@/assets/curso/temas/t4/26.svg", alt="alt").img100
-              .col
+              .col.col-lg-10
                 p.mb-0 #[b Diseñar estrategias de #[i marketing] segmentadas] que respondan a las expectativas y necesidades específicas de cada grupo.
 
           .crd.crd--avatarHorizontal.py-4.bg-color-9
@@ -282,7 +282,7 @@
               .col-auto
                 figure
                   img(src="@/assets/curso/temas/t4/27.svg", alt="alt").img100
-              .col
+              .col.col-lg-9
                 p.mb-0 #[b Optimizar la oferta turística], adaptando productos, servicios y precios a los hábitos de consumo.
           
           .crd.crd--avatarHorizontal.py-4.bg-color-10
@@ -290,7 +290,7 @@
               .col-auto
                 figure
                   img(src="@/assets/curso/temas/t4/27.svg", alt="alt").img100
-              .col
+              .col.col-lg-9
                 p.mb-0 #[b Fomentar la sostenibilidad], promoviendo comportamientos responsables y respetuosos con el entorno.
 
           .crd.crd--avatarHorizontal.py-4.bg-color-9
@@ -298,7 +298,7 @@
               .col-auto
                 figure
                   img(src="@/assets/curso/temas/t4/27.svg", alt="alt").img100
-              .col
+              .col.col-lg-10
                 p.mb-0 #[b Fortalecer la competitividad de los destinos], mediante una gestión basada en información confiable sobre la demanda.
 
           .crd.crd--avatarHorizontal.crd--last.py-4
@@ -306,7 +306,7 @@
               .col-auto
                 figure
                   img(src="@/assets/curso/temas/t4/28.svg", alt="alt").img100
-              .col
+              .col.col-lg-10
                 p.mb-0 #[b Mejorar la experiencia del visitante], ofreciendo servicios personalizados que incrementen la satisfacción y la fidelización.
 
       p.mb-5(data-aos='fade-right') El estudio del perfil del turista constituye una herramienta estratégica para la planificación, promoción y gestión del turismo moderno. Conocer quiénes viajan, qué buscan, cómo se comportan y qué expectativas tienen, permite a los destinos adaptarse a las tendencias del mercado, generar experiencias memorables y promover un desarrollo turístico equilibrado y sostenible. 

@@ -104,7 +104,7 @@
               p.mb-0 Consiste en registrar el comportamiento o las actividades de las personas en su entorno natural. Los datos se obtienen mediante notas de campo, grabaciones de video o audio, y pueden analizarse de forma cualitativa o cuantitativa, dependiendo del nivel de codificación aplicado.
           .col-sm-12.col-lg-5.d-none.d-lg-block
             img(src='@/assets/curso/temas/t1/6.png', alt='')
-        .row.justify-content-center.align-items-center.px-5(titulo="d) Grupos focales (<i>Focus Groups</i>)")
+        .row.justify-content-center.align-items-center.px-5(titulo="d) Grupos focales (<i>focus groups</i>)")
           .col-sm-12.col-lg-7
               p.mb-0 Son una técnica cualitativa que reúne a un grupo de personas moderadas por un facilitador neutral. Su propósito es obtener información sobre un número limitado de preguntas predefinidas. Permiten explorar distintas perspectivas y estimular el intercambio de ideas, lo que enriquece el análisis y la comprensión de las opiniones de los participantes.
           .col-sm-12.col-lg-5.d-none.d-lg-block
@@ -272,6 +272,7 @@
                         p.mb-0 #[b Utilidad en el turismo:] las fuentes secundarias permiten ahorrar tiempo y recursos, ya que ofrecen información recopilada y verificada. Facilitan el análisis comparativo entre destinos, la identificación de oportunidades de mercado y la formulación de estrategias de promoción.
             .row(titulo="Fuentes terciarias").justify-content-center
               .col-sm-12.col-lg-12
+                  p.mb-4 Son herramientas o recursos que organizan, clasifican o reúnen información procedente de fuentes primarias y secundarias, facilitando su búsqueda y consulta. No contienen información original, pero son esenciales para localizarla y acceder a ella con rapidez.
                   ul.lista-ul--color.mb-5
                     li.d-flex
                       i.fas.fa-location-dot.icon-list
@@ -315,12 +316,12 @@
               li.d-flex.mb-1
                 i.fas.fa-location-dot.icon-color
                 p.mb-0 Conocer el perfil, comportamiento y expectativas de los turistas.
-              li.d-flex.mb-1
-                i.fas.fa-location-dot.icon-color
-                p.mb-0  Evaluar la eficacia de estrategias de promoción y #[i marketing] turístico.
               li.d-flex
                 i.fas.fa-location-dot.icon-color
                 p.mb-0  Analizar la competitividad y sostenibilidad de los destinos.
+              li.d-flex.mb-1
+                i.fas.fa-location-dot.icon-color
+                p.mb-0  Evaluar la eficacia de estrategias de promoción y #[i marketing] turístico.
               li.d-flex.mb-1
                 i.fas.fa-location-dot.icon-color
                 p.mb-0  Facilitar la toma de decisiones basada en evidencia.

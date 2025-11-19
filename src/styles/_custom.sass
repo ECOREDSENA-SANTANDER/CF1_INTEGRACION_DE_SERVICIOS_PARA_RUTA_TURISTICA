@@ -128,10 +128,7 @@ figcaption
       color: $white
       text-align: center
   
-    @media (min-width:1200px) and (max-width:1400px)  
-      .crd_hover_txt--body
-        p
-          font-size: 0.85em
+
 .card-hover-cus:active, .card-hover-cus:focus, .card-hover-cus:hover 
     background-image: url('../assets/curso/temas/bg/9.svg')
 .card-hover-cus:active, .card-hover-cus:focus, .card-hover-cus:hover .bg-color-6
@@ -143,6 +140,12 @@ figcaption
     background-size: cover;
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
+.tarjeta-avatar.tarjeta-cus,
+.tarjeta-avatar.tarjeta-cus .tarjeta
+    padding-top: 30px !important;
+.tarjeta-avatar.tarjeta-cus > img
+    top: -20%;
+
 
 /**************************************************************/
 /***CUSTOM STYLES***/
@@ -218,6 +221,10 @@ figcaption
 .w-cus
   &-1
     width: fit-content
+  &-2
+    width: -webkit-fill-available;
+  &-3
+    width: 20% !important
 .text-cus
   &-1
     font-weight: 600 !important
@@ -296,6 +303,18 @@ figcaption
 @media screen and (max-width: $bp-min-xxl)
   .mb-cus
     margin-bottom: 2em  !important 
+  .crd_hover_txt--body
+        padding: 1rem 
+        transform: translateY(calc( 100% - 3.35rem )) 
+        p
+          font-size: 1em
+  .hcard
+    &-2
+      height: 450px !important
+    &-3
+      height: 350px !important
+    &-4
+      height: 350px !important
 
 //// TABLET 992--------------------------------------
 @media screen and (max-width: $bp-max-md)
@@ -321,6 +340,11 @@ figcaption
 @media screen and (max-width: $bp-min-md)
   .mb-cus
     margin-bottom: 2em  !important  
+  .hcard
+    &-3
+      height: 400px !important
+    &-4
+      height: 400px !important
 
   
 
@@ -347,3 +371,6 @@ figcaption
     width: 30px;
     height: 30px;
     background-size: initial;
+  .hcard
+    &-2, &-3, &-4
+      height: auto !important

@@ -17,29 +17,13 @@
           img(src='@/assets/curso/temas/t3/2.png', alt='')
         .col-sm-12.col-lg-7
           p.mb-4 Las motivaciones de viaje pueden entenderse como los factores internos y externos que impulsan a una persona a salir de su lugar de residencia habitual hacia otro destino. Estas razones no son únicamente de carácter recreativo; también pueden responder a necesidades culturales, profesionales, educativas, emocionales o espirituales.
-          .cajon-b.color-primario
+          .bg-color-1.p-4.mb-0
             p.mb-0 De acuerdo con la Organización Mundial del Turismo (OMT), las motivaciones constituyen el punto de partida de toda experiencia turística, pues determinan el comportamiento del visitante, el tipo de servicios que demanda y la forma en que percibe el destino.
 
       p.mb-5(data-aos='fade-right') Entre las motivaciones más comunes se destacan:
       .row.justify-content-center.mb-5(data-aos='fade-right')
         .col-sm-12.col-lg-9
           SlyderF.circl-arrow.mb-4(columnas="col-md-6 col-lg-6 col-xl-4")
-            .tarjeta.bg-color-2.p-4.align-items-center
-              .row.justify-content-center.mb-4
-                .col-6
-                  img(src='@/assets/curso/temas/t3/5.svg' alt='')
-              p.mb-5.text-center Motivos familiares o afectivos, como visitas a parientes o amigos.
-            .tarjeta.bg-color-2.p-4.align-items-center
-              .row.justify-content-center.mb-4
-                .col-6
-                  img(src='@/assets/curso/temas/t3/6.svg' alt='')
-              p.mb-5.text-center Motivaciones religiosas o espirituales, que buscan experiencias de fe, reflexión o crecimiento interior.
-
-            .tarjeta.bg-color-2.p-4.align-items-center
-              .row.justify-content-center.mb-4
-                .col-6
-                  img(src='@/assets/curso/temas/t3/7.svg' alt='')
-              p.mb-5.text-center Motivaciones de prestigio o estatus, asociadas con el deseo de reconocimiento social.
             .tarjeta.bg-color-2.p-4.align-items-center
               .row.justify-content-center.mb-4
                 .col-6
@@ -55,6 +39,22 @@
                 .col-6
                   img(src='@/assets/curso/temas/t3/10.svg' alt='')
               p.mb-5.text-center Negocios y trabajo, vinculadas con actividades profesionales o académicas.
+            .tarjeta.bg-color-2.p-4.align-items-center
+              .row.justify-content-center.mb-4
+                .col-6
+                  img(src='@/assets/curso/temas/t3/5.svg' alt='')
+              p.mb-5.text-center Motivos familiares o afectivos, como visitas a parientes o amigos.
+            .tarjeta.bg-color-2.p-4.align-items-center
+              .row.justify-content-center.mb-4
+                .col-6
+                  img(src='@/assets/curso/temas/t3/6.svg' alt='')
+              p.mb-5.text-center Motivaciones religiosas o espirituales, que buscan experiencias de fe, reflexión o crecimiento interior.
+            .tarjeta.bg-color-2.p-4.align-items-center
+              .row.justify-content-center.mb-4
+                .col-6
+                  img(src='@/assets/curso/temas/t3/7.svg' alt='')
+              p.mb-5.text-center Motivaciones de prestigio o estatus, asociadas con el deseo de reconocimiento social.
+
         .col-sm-12.col-lg-3.d-none.d-lg-block
           img.w-75(src='@/assets/curso/temas/t3/4.png', alt='')
       
@@ -75,13 +75,13 @@
           .row.justify-content-center.mb-0.px-5.py-5
             .col-sm-12.col-lg-8
               h4.mb-4 Turismo de negocios o corporativo 
-              p.mb-0 Se relaciona con los desplazamientos para participar en congresos, convenciones, ferias, reuniones empresariales o capacitaciones. Este tipo de turismo representa una fuente importante de ingresos para los destinos urbanos, debido al alto poder adquisitivo de los viajeros corporativos. Además de contribuir a la economía local, fomenta el intercambio de conocimientos, la innovación y la cooperación internacional. En los últimos años, se ha fortalecido la tendencia bleisure, que combina actividades laborales con experiencias recreativas.
+              p.mb-0 Se relaciona con los desplazamientos para participar en congresos, convenciones, ferias, reuniones empresariales o capacitaciones. Este tipo de turismo representa una fuente importante de ingresos para los destinos urbanos, debido al alto poder adquisitivo de los viajeros corporativos. Además de contribuir a la economía local, fomenta el intercambio de conocimientos, la innovación y la cooperación internacional. En los últimos años, se ha fortalecido la tendencia #[i bleisure], que combina actividades laborales con experiencias recreativas.
             .col-sm-12.col-lg-4.d-none.d-lg-block
               img(src='@/assets/curso/temas/t3/11.png', alt='')
           .row.justify-content-center.mb-0.px-5.py-5
             .col-sm-12.col-lg-8
               h4.mb-4 Turismo de ocio o recreativo
-              p.mb-3 Es uno de los tipos más tradicionales y populares. Su objetivo principal es el descanso, la diversión y la desconexión de la rutina. Incluye viajes a playas, parques temáticos, cruceros, destinos rurales u urbanos.  
+              p.mb-3 Es uno de los tipos más tradicionales y populares. Su objetivo principal es el descanso, la diversión y la desconexión de la rutina. Incluye viajes a playas, parques temáticos, cruceros, destinos rurales o urbanos.  
               p.mb-0 El turismo de ocio tiene un impacto positivo tanto en la salud física como emocional del viajero y representa una fuente significativa de desarrollo económico para los territorios receptores, generando empleo y fomentando la inversión en infraestructura turística.
             .col-sm-12.col-lg-4.d-none.d-lg-block
               img(src='@/assets/curso/temas/t3/12.png', alt='')
@@ -103,7 +103,7 @@
           .row.justify-content-center.mb-0.px-5.py-5
             .col-sm-12.col-lg-8
               h4.mb-4 Turismo deportivo
-              p.mb-0 Implica viajar para practicar un deporte, asistir como espectador a competencias o participar en eventos de gran escala. Este tipo de turismo tiene un alto potencial económico, ya que atrae visitantes y genera empleo temporal en sectores como hotelería, transporte y gastronomía. Eventos como los Juegos Olímpicos, la Copa Mundial de Fútbol o los maratones internacionales transforman las ciudades anfitrionas en escenarios de encuentro global.
+              p.mb-0 Implica viajar para practicar un deporte, asistir como espectador a competencias o participar en eventos de gran escala. Este tipo de turismo tiene un alto potencial económico, ya que atrae visitantes y genera empleo temporal en sectores como hotelería, transporte y gastronomía. Eventos como los Juegos Olímpicos, la Copa Mundial de Fútbol o las maratones internacionales transforman las ciudades anfitrionas en escenarios de encuentro global.
             .col-sm-12.col-lg-4.d-none.d-lg-block
               img(src='@/assets/curso/temas/t3/15.png', alt='')
 
@@ -117,7 +117,7 @@
           .row.justify-content-center.mb-0.px-5.py-5
             .col-sm-12.col-lg-8
               h4.mb-4 Turismo de aventura
-              p.mb-0 Atrae a viajeros interesados en experiencias extremas, desafiantes y estimulantes. Se caracteriza por la práctica de actividades que implican cierto grado de riesgo controlado, como el senderismo, la escalada, el rafting, el parapente o el ciclismo de montaña. Este tipo de turismo contribuye al fortalecimiento de la salud física y mental, fomenta la superación personal y promueve la valoración del entorno natural.
+              p.mb-0 Atrae a viajeros interesados en experiencias extremas, desafiantes y estimulantes. Se caracteriza por la práctica de actividades que implican cierto grado de riesgo controlado, como el senderismo, la escalada, el #[i rafting], el parapente o el ciclismo de montaña. Este tipo de turismo contribuye al fortalecimiento de la salud física y mental, fomenta la superación personal y promueve la valoración del entorno natural.
             .col-sm-12.col-lg-4.d-none.d-lg-block
               img(src='@/assets/curso/temas/t3/17.png', alt='')
 
@@ -138,7 +138,7 @@
           .row.justify-content-center.mb-0.px-5.py-5
             .col-sm-12.col-lg-8
               h4.mb-4 Turismo de salud y bienestar
-              p.mb-0 Orientado a la búsqueda de tratamientos médicos, terapias alternativas o experiencias de relajación. Los destinos especializados en este tipo de turismo ofrecen servicios como balnearios, spas, clínicas especializadas y programas de bienestar integral. Contribuye al equilibrio físico y mental de los visitantes y representa una oportunidad para diversificar la oferta turística.
+              p.mb-0 Orientado a la búsqueda de tratamientos médicos, terapias alternativas o experiencias de relajación. Los destinos especializados en este tipo de turismo ofrecen servicios como balnearios, spa, clínicas especializadas y programas de bienestar integral. Contribuye al equilibrio físico y mental de los visitantes y representa una oportunidad para diversificar la oferta turística.
             .col-sm-12.col-lg-4.d-none.d-lg-block
               img(src='@/assets/curso/temas/t3/20.png', alt='')
 
@@ -164,7 +164,7 @@
       .tarjeta.bg-fondo-2.p-4.mb-5(data-aos='fade-right')
         .row.justify-content-around.align-items-center
           .col-3.col-sm-2.col-lg-1.d-none.d-lg-block
-            img(src="@/assets/curso/temas/t1/16.svg")
+            img(src="@/assets/curso/temas/t3/22.svg")
           .col
             .row.justify-content-between.align-items-center
               .col.mb-3.mb-sm-0

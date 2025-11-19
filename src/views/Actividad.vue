@@ -54,7 +54,7 @@ export default {
         {
           id: 2,
           texto:
-            'La observación directa se realiza por medio de redes sociales, páginas de internet.',
+            'La observación directa se realiza por medio de redes sociales y páginas de internet.',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [

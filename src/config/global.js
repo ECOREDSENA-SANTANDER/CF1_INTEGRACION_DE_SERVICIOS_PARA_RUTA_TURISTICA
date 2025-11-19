@@ -130,15 +130,15 @@ export default {
       tema: 'Perfil del turista',
       referencia:
         'Conde Pérez, E. M., Herrera Vázquez, N. L., & Schmidt Cornejo, N. E. (2012). Procedimiento para analizar el comportamiento del turista: Aplicación en el destino Manzanillo, México. TURYDES: Revista sobre Turismo y Desarrollo Local Sostenible.',
-      tipo: 'Documento.',
+      tipo: 'Documento',
       link: 'https://dialnet.unirioja.es/servlet/articulo?codigo=8952014',
     },
     {
       tema: 'Bases de datos',
       referencia:
         'Alarza Blázquez, G. (2009). Bases de datos: sistema de gestión de rutas turísticas. (Proyecto fin de carrera, Universidad Carlos III de Madrid), Repositorio Institucional UC3M.',
-      tipo: 'Proyecto.',
-      link: 'https://e-archivo.uc3m.es/handle/10016/9748',
+      tipo: 'Proyecto',
+      link: 'https://hdl.handle.net/10016/6580',
     },
     {
       tema: 'Perfil del turista',
@@ -155,7 +155,7 @@ export default {
         'tendencia de la industria de reuniones que combina viajes de negocios con actividades de ocio.',
     },
     {
-      termino: '<i>Branding</i>>',
+      termino: '<i>Branding</i>',
       significado:
         'proceso de construir una identidad distintiva y deseable para un destino, empresa o producto turístico y diferenciarlo de los competidores.',
     },
@@ -188,18 +188,17 @@ export default {
   referencias: [
     {
       referencia:
-        'Aguilera, C. (2024). Qué es la gestión de talento humano en una empresa. Blog de E-learning.',
+        'Aguilera, C. (2024). Qué es la gestión de talento humano en una empresa. Blog de <i>E-learning</i>.',
       link: 'https://www.ispring.es/blog/gestion-talento-humano',
     },
     {
       referencia:
         'Alarza, B. (2009). Bases de datos: sistema de gestión de rutas turísticas.',
-      link:
-        'https://file:///C:/Users/EQUIPO/Downloads/PFC_Gladys_Alarza_Blazquez.pdf',
+      link: 'https://hdl.handle.net/10016/6580',
     },
     {
       referencia:
-        'Castro, C. D. (2024, 27 mayo). Todo sobre turismo: 8 tipos y sus motivaciones. Tickelia.',
+        'Castro, C. D. (2024, 27 de mayo). Todo sobre turismo: 8 tipos y sus motivaciones. Tickelia.',
       link: 'https://tickelia.com/blog/glosario/8-tipos-turismo-motivaciones/',
     },
     {
@@ -322,13 +321,8 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: '--',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro Agroturístico - Regional Santander',
-        },
-        {
-          nombre: '--',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          nombre: 'Yineth Ibette Gonzalez Quintero',
+          cargo: 'Validadora y vinculadora de recursos educativos digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
