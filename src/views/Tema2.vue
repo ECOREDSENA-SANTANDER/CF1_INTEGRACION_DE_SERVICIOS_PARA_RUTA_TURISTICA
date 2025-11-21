@@ -20,20 +20,20 @@
             img.d-none.d-lg-block.w-cus-3(src='@/assets/curso/temas/t2/11.svg' alt='')
             .tarjeta.color-secundario.w-cus-2.tarjeta-cus
               .px-4.py-0.pb-4
-                p.mb-0.text-center Introducir datos.
+                p.mb-0.text-center Introducir datos
         
         .col-sm-12.col-lg-4.mb-cus
           .tarjeta-avatar.tarjeta-cus
             img.d-none.d-lg-block.w-cus-3(src='@/assets/curso/temas/t2/12.svg' alt='')
             .tarjeta.color-primario.w-cus-2.tarjeta-cus
               .px-4.py-0.pb-4
-                p.mb-0.text-center Almacenar datos.
+                p.mb-0.text-center Almacenar datos
         .col-sm-12.col-lg-4.mb-cus
           .tarjeta-avatar.tarjeta-cus
             img.d-none.d-lg-block.w-cus-3(src='@/assets/curso/temas/t2/13.svg' alt='')
             .tarjeta.color-secundario.w-cus-2.tarjeta-cus
               .px-4.py-0.pb-4
-                p.mb-0.text-center Recuperar y procesar información.
+                p.mb-0.text-center Recuperar y procesar información
       
       
       p.mb-5 La información se organiza habitualmente en tablas, donde cada fila representa un registro y cada columna corresponde a un campo o categoría de datos. Por ejemplo, puede compararse con un directorio telefónico, en el que se registran nombres, números y direcciones de contacto. Este tipo de estructura facilita el acceso y la gestión eficiente de la información contenida en la base de datos.
