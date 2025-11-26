@@ -175,7 +175,7 @@ export default {
         'estrategias y actividades que buscan sumergir al turista en un destino, cultura o entorno de manera profunda y significativa.',
     },
     {
-      termino: 'Gastronomía autóctona.',
+      termino: 'Gastronomía autóctona',
       significado:
         'comida local y prácticas culinarias propias de una región específica que son utilizadas como atractivo turístico para atraer visitantes interesados en experimentar la cultura local a través de la comida.',
     },
@@ -323,6 +323,11 @@ export default {
         {
           nombre: 'Yineth Ibette Gonzalez Quintero',
           cargo: 'Validadora y vinculadora de recursos educativos digitales',
+          centro: 'Centro Agroturístico - Regional Santander',
+        },
+        {
+          nombre: 'Erika Fernanda Mejía Pinzón',
+          cargo: 'Evaluadora para contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
