@@ -59,12 +59,12 @@
           h3.mb-0.titulo-icono-text.px-0.py-2 Principales instrumentos de recolección de información
 
       AcordionA(tipo="a" clase-tarjeta="tarjeta bg-color-2")(data-aos='fade-right')
-        .row.justify-content-center.align-items-center.px-5(titulo="a) Cuestionarios")
+        .row.justify-content-center.align-items-center.px-5(titulo="A) Cuestionarios")
           .col-sm-12.col-lg-7
               p.mb-0 Son herramientas empleadas para recolectar datos cuantitativos. Se utilizan con frecuencia en las investigaciones por su capacidad para obtener información estandarizada que facilite generalizaciones. Los cuestionarios ofrecen respuestas rápidas, pero deben diseñarse cuidadosamente para evitar influir en las respuestas. Su estructura y contenido deben reflejar los objetivos de la investigación. 
           .col-sm-12.col-lg-5.d-none.d-lg-block
             img(src='@/assets/curso/temas/t1/4.png', alt='')
-        .row.justify-content-center.align-items-center.px-5(titulo="b) Entrevistas")
+        .row.justify-content-center.align-items-center.px-5(titulo="B) Entrevistas")
           .col-sm-12.col-lg-7
               p.mb-4 Constituyen instrumentos útiles para la recolección de datos cualitativos. Se destacan por su flexibilidad y la posibilidad de profundizar en las respuestas. Al planificar una entrevista, se deben tener en cuenta aspectos como la exhaustividad, tacto, precisión, exactitud y confidencialidad.
               ol.lista-ol--cuadro
@@ -99,17 +99,17 @@
                   p.mb-0 No estructuradas.
           .col-sm-12.col-lg-5.d-none.d-lg-block
             img(src='@/assets/curso/temas/t1/5.png', alt='')
-        .row.justify-content-center.align-items-center.px-5(titulo="c) Observación")
+        .row.justify-content-center.align-items-center.px-5(titulo="C) Observación")
           .col-sm-12.col-lg-7
               p.mb-0 Consiste en registrar el comportamiento o las actividades de las personas en su entorno natural. Los datos se obtienen mediante notas de campo, grabaciones de video o audio, y pueden analizarse de forma cualitativa o cuantitativa, dependiendo del nivel de codificación aplicado.
           .col-sm-12.col-lg-5.d-none.d-lg-block
             img(src='@/assets/curso/temas/t1/6.png', alt='')
-        .row.justify-content-center.align-items-center.px-5(titulo="d) Grupos focales (<i>focus groups</i>)")
+        .row.justify-content-center.align-items-center.px-5(titulo="D) Grupos focales (<i>focus groups</i>)")
           .col-sm-12.col-lg-7
               p.mb-0 Son una técnica cualitativa que reúne a un grupo de personas moderadas por un facilitador neutral. Su propósito es obtener información sobre un número limitado de preguntas predefinidas. Permiten explorar distintas perspectivas y estimular el intercambio de ideas, lo que enriquece el análisis y la comprensión de las opiniones de los participantes.
           .col-sm-12.col-lg-5.d-none.d-lg-block
             img(src='@/assets/curso/temas/t1/7.png', alt='')
-        .row.justify-content-center.align-items-center.px-5(titulo="e) Comunidades en línea")
+        .row.justify-content-center.align-items-center.px-5(titulo="E) Comunidades en línea")
           .col-sm-12.col-lg-7
               p.mb-0 El uso de plataformas digitales facilita la creación de comunidades donde se promueven interacciones sociales y se recopila información de manera dinámica. Estas comunidades permiten aplicar encuestas, realizar sondeos, organizar grupos de discusión, generar ideas colaborativamente y reconocer la participación de los usuarios mediante incentivos.
           .col-sm-12.col-lg-5.d-none.d-lg-block

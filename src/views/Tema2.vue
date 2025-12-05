@@ -181,7 +181,7 @@
             .tarjeta.bg-color-1.hcard-3
               .p-4
                 p.mb-1.text-center #[b Recopilar datos de diversas fuentes y almacenarlos en una base de datos] 
-                p.mb-0.text-center Puede emplearse software como Microsoft Excel, Google Analytics o Data Studio.
+                p.mb-0.text-center Puede emplearse #[em software] como Microsoft Excel, Google Analytics o Data Studio.
         .col-sm-12.col-md-6.col-lg-4.mb-cus
           .tarjeta-avatar
             img(src='@/assets/curso/temas/t2/9.svg' alt='')
