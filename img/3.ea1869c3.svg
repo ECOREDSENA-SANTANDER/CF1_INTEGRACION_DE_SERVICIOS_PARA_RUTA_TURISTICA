@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="62.504" height="62.504" viewBox="0 0 62.504 62.504">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_403259" data-name="Rectángulo 403259" width="51" height="51" transform="translate(279 11098)" fill="#33501e" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_1101950" data-name="Grupo 1101950" transform="translate(-273 -11093)">
+    <g id="Grupo_1072053" data-name="Grupo 1072053" transform="translate(273 11093)">
+      <circle id="Elipse_4742" data-name="Elipse 4742" cx="31.252" cy="31.252" r="31.252" transform="translate(0)" fill="#81c74d"/>
+    </g>
+    <g id="Enmascarar_grupo_1098835" data-name="Enmascarar grupo 1098835" clip-path="url(#clip-path)">
+      <g id="geografico" transform="translate(279 11098)">
+        <path id="Trazado_879385" data-name="Trazado 879385" d="M41.067,25.4H38.25a1.7,1.7,0,0,0-1.693,1.693,4.687,4.687,0,0,1-4.682,4.682,1.693,1.693,0,0,0,0,3.387H42.95c.053-.557.082-1.122.082-1.693A17.454,17.454,0,0,0,41.067,25.4Z" fill="#33501e"/>
+        <path id="Trazado_879386" data-name="Trazado 879386" d="M17.631,27.094A1.7,1.7,0,0,0,15.938,25.4h-6A17.413,17.413,0,0,0,8.6,28.787h7.336A1.7,1.7,0,0,0,17.631,27.094Z" fill="#33501e"/>
+        <path id="Trazado_879387" data-name="Trazado 879387" d="M27.193,33.469a4.687,4.687,0,0,1,4.682-4.682,1.7,1.7,0,0,0,1.693-1.693,4.687,4.687,0,0,1,4.682-4.682H39.1a17.619,17.619,0,0,0-4.667-4.027L25.5,27.324l-8.937-8.939A17.618,17.618,0,0,0,11.9,22.412h4.042a4.682,4.682,0,0,1,0,9.363H8.05q-.08.836-.081,1.693c0,.571.028,1.136.082,1.693H19.125a4.687,4.687,0,0,1,4.682,4.682A1.7,1.7,0,0,0,25.5,41.537h3.188a4.687,4.687,0,0,1,4.682,4.682v2.919A17.573,17.573,0,0,0,42.4,38.15H31.875A4.687,4.687,0,0,1,27.193,33.469Z" fill="#33501e"/>
+        <path id="Trazado_879388" data-name="Trazado 879388" d="M28.688,44.525H25.5a4.687,4.687,0,0,1-4.682-4.682,1.7,1.7,0,0,0-1.693-1.693H8.6a17.55,17.55,0,0,0,21.779,12.16V46.219A1.7,1.7,0,0,0,28.688,44.525Z" fill="#33501e"/>
+        <circle id="Elipse_11686" data-name="Elipse 11686" cx="1.693" cy="1.693" r="1.693" transform="translate(23.807 7.869)" fill="#33501e"/>
+        <path id="Trazado_879389" data-name="Trazado 879389" d="M25.5,23.1l6.765-6.765a9.567,9.567,0,1,0-13.53,0Zm0-18.217a4.682,4.682,0,1,1-4.682,4.682A4.687,4.687,0,0,1,25.5,4.881Z" fill="#33501e"/>
+      </g>
+    </g>
+  </g>
+</svg>
