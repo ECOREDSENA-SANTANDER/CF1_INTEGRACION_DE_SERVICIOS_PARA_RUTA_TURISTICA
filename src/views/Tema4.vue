@@ -75,7 +75,7 @@
             .col-6
               img(src='@/assets/curso/temas/t4/6.svg' alt='')
           h4.text-center Turista de sol y playa
-          p.mb-0.text-center Busca descanso, relajación y bienestar físico y emocional. Prefiere destinos cálidos, con playas, hoteles todos incluidos y actividades recreativas acuáticas. Su motivación principal es escapar de la rutina y disfrutar del ocio en entornos tranquilos.
+          p.mb-0.text-center Busca descanso, relajación y bienestar físico y emocional. Prefiere destinos cálidos, con playas, hoteles todo incluido y actividades recreativas acuáticas. Su motivación principal es escapar de la rutina y disfrutar del ocio en entornos tranquilos.
       
         .tarjeta.bg-fondo-1.p-4
           .row.justify-content-center.mb-4
